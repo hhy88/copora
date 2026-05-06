@@ -1,2 +1,3 @@
 # copora
-md editer
+md editor
+
