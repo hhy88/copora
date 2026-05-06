@@ -1,0 +1,217 @@
+.md-render h1 {
+  font-size: var(--heading-size-1);
+  font-weight: var(--heading-weight-1);
+  margin-top: 24px;
+  margin-bottom: 16px;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border-color);
+  line-height: 1.25;
+}
+
+.md-render h2 {
+  font-size: var(--heading-size-2);
+  font-weight: var(--heading-weight-2);
+  margin-top: 24px;
+  margin-bottom: 16px;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border-color);
+  line-height: 1.25;
+}
+
+.md-render h3 {
+  font-size: var(--heading-size-3);
+  font-weight: var(--heading-weight-3);
+  margin-top: 24px;
+  margin-bottom: 16px;
+  line-height: 1.25;
+}
+
+.md-render h4 {
+  font-size: var(--heading-size-4);
+  font-weight: var(--heading-weight-4);
+  margin-top: 24px;
+  margin-bottom: 16px;
+  line-height: 1.25;
+}
+
+.md-render h5 {
+  font-size: var(--heading-size-5);
+  font-weight: var(--heading-weight-5);
+  margin-top: 24px;
+  margin-bottom: 16px;
+  line-height: 1.25;
+}
+
+.md-render h6 {
+  font-size: var(--heading-size-6);
+  font-weight: var(--heading-weight-6);
+  margin-top: 24px;
+  margin-bottom: 16px;
+  color: var(--text-tertiary);
+  line-height: 1.25;
+}
+
+.md-render p {
+  margin-bottom: 16px;
+}
+
+.md-render strong {
+  font-weight: 600;
+}
+
+.md-render em {
+  font-style: italic;
+}
+
+.md-render del {
+  text-decoration: line-through;
+}
+
+.md-render code {
+  font-family: var(--font-family-mono);
+  font-size: 85%;
+  background-color: var(--code-bg);
+  color: var(--code-text);
+  padding: 0.2em 0.4em;
+  border-radius: var(--radius-sm);
+}
+
+.md-render a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.md-render a:hover {
+  text-decoration: underline;
+}
+
+.md-render blockquote {
+  border-left: 4px solid var(--blockquote-border);
+  padding: 0 1em;
+  color: var(--text-tertiary);
+  margin-bottom: 16px;
+}
+
+.md-render blockquote p {
+  margin-bottom: 0;
+}
+
+.md-render ul,
+.md-render ol {
+  margin-bottom: 16px;
+  padding-left: 2em;
+}
+
+.md-render ul ul,
+.md-render ul ol,
+.md-render ol ul,
+.md-render ol ol {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.md-render li {
+  word-wrap: break-word;
+}
+
+.md-render li + li {
+  margin-top: 0.25em;
+}
+
+.md-render ul.task-list {
+  list-style: none;
+  padding-left: 1.5em;
+}
+
+.md-render ul.task-list li {
+  position: relative;
+}
+
+.md-render ul.task-list input[type="checkbox"] {
+  position: absolute;
+  left: -1.5em;
+  top: 0.35em;
+  margin: 0;
+  width: 1em;
+  height: 1em;
+  accent-color: var(--accent-color);
+}
+
+.md-render table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 16px;
+  overflow: auto;
+  display: block;
+}
+
+.md-render table thead {
+  background-color: var(--table-header-bg);
+}
+
+.md-render table th {
+  font-weight: 600;
+  padding: 6px 13px;
+  border: 1px solid var(--table-border);
+}
+
+.md-render table td {
+  padding: 6px 13px;
+  border: 1px solid var(--table-border);
+}
+
+.md-render table tr {
+  border-top: 1px solid var(--table-border);
+}
+
+.md-render table tr:nth-child(2n) {
+  background-color: var(--bg-secondary);
+}
+
+.md-render hr {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  margin: 24px 0;
+  height: 0;
+}
+
+.md-render img {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: var(--radius-sm);
+}
+
+.md-render mark {
+  background-color: #fff8c5;
+  padding: 0.2em 0.4em;
+  border-radius: var(--radius-sm);
+}
+
+.md-render sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  bottom: -0.25em;
+}
+
+.md-render sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+
+.md-render kbd {
+  font-family: var(--font-family-mono);
+  font-size: 85%;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-bottom-color: var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 0.1em 0.4em;
+  box-shadow: inset 0 -1px 0 var(--border-color);
+}
